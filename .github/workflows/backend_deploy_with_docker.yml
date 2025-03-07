@@ -45,4 +45,4 @@ jobs:
           -e SPRING_DATASOURCE_USERNAME=admin \
           -e SPRING_DATASOURCE_PASSWORD=${{ secrets.DB_PW }} \
           -e CLOUD_AWS_CREDENTIALS_ACCESS_KEY=${{secrets.AWS_KEY}} \
-          -e CLOUD_AWS_CREDENTIALS_SECRET_KEY=${{secrets.AWS_SECRET}} \ jykim862/ordersystem:latest
+          -e CLOUD_AWS_CREDENTIALS_SECRET_KEY=${{secrets.AWS_SECRET}} jykim862/ordersystem:latest
